@@ -1,0 +1,272 @@
+/* ctrl k + ctrl c*/
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.container .h-name {
+  width: 100%;
+  min-height: 100px;
+  margin-top: 5%;
+  margin-bottom: 100px;
+  background-color: aquamarine;
+}
+
+.container .h-name h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #232323;
+}
+
+.container .h-name h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #00E0FF;
+}
+
+.container .h-sobre {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 100px;
+  background-color: aquamarine;
+}
+
+.container .h-sobre .h-title-sobre {
+  width: 100%;
+  height: 50px; 
+  border-bottom: 2px solid #00E0FF;
+  margin-bottom: 25px;
+}
+
+.container .h-sobre .h-title-sobre h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.container .h-sobre .paragraf {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.container .h-experience {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 100px;
+  background-color: aquamarine;
+}
+
+.container .h-experience .h-title-experience {
+  width: 100%;
+  height: 50px; 
+  border-bottom: 2px solid #00E0FF;
+  margin-bottom: 50px;
+}
+
+.container .h-experience .h-title-experience h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.container .h-experience .h-itens {
+  width: 100%;
+  min-height: 100px;
+}
+
+.container .h-experience .h-itens .item {
+  display: flex;
+  width: 100%;
+  min-height: 220px;
+}
+
+.container .h-experience .h-itens .item .work{
+  min-width: 25%;
+  max-width: 25%;
+  min-height: 100px;
+}
+
+.container .h-experience .h-itens .item .work h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.container .h-experience .h-itens .item .work p{
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.container .h-experience .h-itens .item .description {
+  width: 75%;
+  min-height: 100px;
+}
+
+.container .h-experience .h-itens .item .description h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.container .h-experience .h-itens .item .description p{
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.container .h-educacao {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 100px;
+  background-color: aquamarine;
+}
+
+.container .h-educacao .h-title-educacao {
+  width: 100%;
+  height: 50px; 
+  border-bottom: 2px solid #00E0FF;
+  margin-bottom: 50px;
+}
+
+.container .h-educacao .h-title-educacao h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.container .h-educacao .item {
+  width: 100%;
+  min-height: 220px;
+}
+
+.container .h-educacao .item .title {
+  margin-bottom: 10px;
+}
+
+.container .h-educacao .item h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #232323;
+}
+
+.container .h-educacao .item h2 span {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #00E0FF;
+}
+
+.container .h-educacao .item p {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000000;
+}
+/*
+
+
+
+
+
+      <div class="item">
+        <div class="w-100 title"></div>
+        <h2>Colégio Oliveira Paiva <span>Contabilidade</span></h2>
+      </div>
+
+
+      <div class="item">
+        <div class="w-100 title"></div>
+        <h2>Digital College  <span>Desenvolvedor Full Stack</span></h2>
+      </div>
+
+    </div>
+
+    <div class="habilidades">
+      <div class="title-habilidades">
+        <h2>Habilidades</h2>
+      </div>
+
+      <div class="item">
+        <div class="title">
+          <h2>xHarbour/Fivewin</h2>
+          <p>o que foi desenvolvido com essa linguagem</p>
+        </div>
+        <div class="icon">
+          <div class="percentual-10"></div>
+        </div>
+
+        <div class="title">
+          <h2>PHP</h2>
+          <p>o que foi desenvolvido com essa linguagem</p>
+        </div>
+        <div class="icon">
+          <div class="percentual-10"></div>
+        </div>
+
+        <div class="title">
+          <h2>React JS</h2>
+          <p>o que foi desenvolvido com essa linguagem</p>
+        </div>
+        <div class="icon">
+          <div class="percentual-10"></div>
+        </div>
+
+
+      </div>
+          <div class="contato">
+      <div class="title-contato"></div>
+      <h2>Contato</h2>
+    </div>
+    <div class="w-100 item">
+      <h2>Celular</h2>
+      <p>(85) 9.9995-7239</p>
+      <p>(85) 9.8892-0204</p>
+    </div>
+
+    <div class="w-100 item">
+      <h2>E-mail</h2>
+      <p>mmsi.sistemas@gmail.com</p>
+    </div>
+
+    <div class="w-100 item">
+      <h2>Link-din</h2>
+      <p>mmsi.sistemas@gmail.com</p>
+    </div>
+
+    <div class="w-100 item">
+      <h2>GitHub</h2>
+      <p>mmsi.sistemas@gmail.com</p>
+    </div>
+
+
+
+
+*/
