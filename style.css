@@ -1,4 +1,6 @@
 @import "./assets/css/home.css";
+@import "./assets/css/responsive.css";
+@import "./assets/css/util.css";
 
 * {
   margin: 0;

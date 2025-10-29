@@ -9,7 +9,6 @@
   min-height: 100px;
   margin-top: 5%;
   margin-bottom: 100px;
-  background-color: aquamarine;
 }
 
 .container .h-name h1 {
@@ -31,8 +30,7 @@
 .container .h-sobre {
   width: 100%;
   min-height: 100px;
-  margin-bottom: 100px;
-  background-color: aquamarine;
+  margin-bottom: 100px;  
 }
 
 .container .h-sobre .h-title-sobre {
@@ -60,8 +58,7 @@
 .container .h-experience {
   width: 100%;
   min-height: 100px;
-  margin-bottom: 100px;
-  background-color: aquamarine;
+  margin-bottom: 100px;  
 }
 
 .container .h-experience .h-title-experience {
@@ -131,6 +128,7 @@
   font-family: 'Oswald', sans-serif;
   font-weight: normal;
   font-size: 22px;
+  text-align: justify;
   text-transform: uppercase;
   color: #000000;
 }
@@ -138,8 +136,7 @@
 .container .h-educacao {
   width: 100%;
   min-height: 100px;
-  margin-bottom: 100px;
-  background-color: aquamarine;
+  margin-bottom: 100px;  
 }
 
 .container .h-educacao .h-title-educacao {
@@ -186,87 +183,175 @@
 }
 
 .container .h-educacao .item p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  text-align: justify;
   font-size: 22px;
   text-transform: uppercase;
   color: #000000;
 }
-/*
+
+.container .h-habilidades {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 100px;  
+}
+
+.container .h-habilidades .h-title-habilidades {
+  width: 100%;
+  min-height: 50px;
+  border-bottom: 2px solid #00e0ff;
+  margin-bottom: 50px;
+}
+
+.container .h-habilidades .h-title-habilidades h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #232323;
+}
+
+.container .h-habilidades .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.container .h-habilidades .item .title {
+  min-width: 150px;  
+}
+
+.container .h-habilidades .item h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #232323;
+}
+
+.container .h-habilidades .item .icon {
+  position: relative;
+  width: 200px;
+  height: 18px;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  border-radius: 6px;
+  background: transparent;
+}
+
+.container .h-habilidades .item .icon .percentual-10 {
+  width: 110px;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #00e0ff;
+}
+
+.container .h-habilidades .item .icon .percentual-50 {
+  width: 150px;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #00e0ff;
+}
+
+.container .h-habilidades .item .icon .percentual-80 {
+  width: 180px;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #00e0ff;
+}
+
+/* Contato*/
+.container .h-contato {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 100px;  
+}
+
+.container .h-contato .h-title-contato {
+ width: 100%;
+  min-height: 50px;
+  border-bottom: 2px solid #00e0ff;
+  margin-bottom: 50px;
+
+.container .h-contato .h-title-contato h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #232323;
+}
+
+.container.h-contato .item {
+  width: 100%;
+  min-height: 80px;
+}
+
+.container.h-contato .item h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #232323;
+}
+
+.container.h-contato .item p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #232323;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #00e0ff;
+}
 
 
 
+/*estilos refente ao slide */
+.slide {
+  position: relative;
+}
 
+.slider {
+  overflow-x: hidden;
+  width: 900px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.contet {
+  display: flex;
+  width: fit-content;
+}
+.contet img {
+    width: 900px;
+    height: 350px;
+    object-fit: cover;
+}
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: aquamarine;
+  color: white;
+  position: absolute;
+  top: 50%;
+}
 
-      <div class="item">
-        <div class="w-100 title"></div>
-        <h2>Colégio Oliveira Paiva <span>Contabilidade</span></h2>
-      </div>
+button :first-of-type {
+  left: 0;
+  transform: translate(-50% -50%);
+ 
+}
 
-
-      <div class="item">
-        <div class="w-100 title"></div>
-        <h2>Digital College  <span>Desenvolvedor Full Stack</span></h2>
-      </div>
-
-    </div>
-
-    <div class="habilidades">
-      <div class="title-habilidades">
-        <h2>Habilidades</h2>
-      </div>
-
-      <div class="item">
-        <div class="title">
-          <h2>xHarbour/Fivewin</h2>
-          <p>o que foi desenvolvido com essa linguagem</p>
-        </div>
-        <div class="icon">
-          <div class="percentual-10"></div>
-        </div>
-
-        <div class="title">
-          <h2>PHP</h2>
-          <p>o que foi desenvolvido com essa linguagem</p>
-        </div>
-        <div class="icon">
-          <div class="percentual-10"></div>
-        </div>
-
-        <div class="title">
-          <h2>React JS</h2>
-          <p>o que foi desenvolvido com essa linguagem</p>
-        </div>
-        <div class="icon">
-          <div class="percentual-10"></div>
-        </div>
-
-
-      </div>
-          <div class="contato">
-      <div class="title-contato"></div>
-      <h2>Contato</h2>
-    </div>
-    <div class="w-100 item">
-      <h2>Celular</h2>
-      <p>(85) 9.9995-7239</p>
-      <p>(85) 9.8892-0204</p>
-    </div>
-
-    <div class="w-100 item">
-      <h2>E-mail</h2>
-      <p>mmsi.sistemas@gmail.com</p>
-    </div>
-
-    <div class="w-100 item">
-      <h2>Link-din</h2>
-      <p>mmsi.sistemas@gmail.com</p>
-    </div>
-
-    <div class="w-100 item">
-      <h2>GitHub</h2>
-      <p>mmsi.sistemas@gmail.com</p>
-    </div>
-
-
-
-
-*/

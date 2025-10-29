@@ -1,0 +1,112 @@
+/* Tablet 768px */
+@media screen and (max-width: 768px) {
+    .container .h-habilidades .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/*  Mobile 425px */
+@media screen and (max-width: 425px) {
+    .container .h-name {
+        margin-top: 10%;
+        margin-bottom: 50px;
+    }
+
+    .container .h-name  h1 {
+        font-size: 28px;
+    }
+
+    .container .h-name  h2 {
+        font-size: 22px;
+    }
+
+    /* sobre */
+    .container .h-sobre {
+        width: 100%;
+        min-height: 100px;
+        margin-bottom: 50px;
+    }
+   
+    .container .h-sobre .h-title-sobre h2 {
+        margin-top: 5%;
+        font-size: 20px
+    }
+
+    .container .h-sobre .paragraf {
+        font-size: 18px;        
+    }
+
+    /* experiencia */
+    .container .h-experience .h-title-experience h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+
+    .container .h-experience .h-itens .item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 220px;
+        margin-bottom: 50px;
+    }
+
+    .container .h-experience .h-itens .item .work {
+        min-width: 100%;
+        min-height: 80px;
+    }
+    .container .h-experience .h-itens .item .description {
+        min-width: 100%;
+        min-height: 100px;
+    }
+
+    .container .h-experience .h-itens .item .description h2 {
+        margin-bottom: 20px;
+    }
+
+    /* educação */
+    .container .h-educacao .h-title-educacao h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+
+    .container .h-educacao .item {
+        margin-bottom: 50px;
+    }
+
+    .container .h-educacao .item .title {
+        margin-bottom: 20px;
+    }
+
+    .container .h-educacao .item .title h2 {
+        font-size: 22px;
+    }
+
+    .container .h-educacao .item .title span {
+        font-size: 22px;
+    }
+
+    /* habilidades */
+    .container .h-habilidades .h-title-habilidades h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+
+    .container .h-habilidades .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* contato */
+    .container .h-contato .h-title-contato h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+
+}
