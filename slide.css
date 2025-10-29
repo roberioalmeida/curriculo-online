@@ -1,0 +1,64 @@
+/*estilos refente ao slide */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body {
+    background-color: #616161;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+}
+
+.contet {
+  display: flex;
+  width: fit-content; /* presesrva a imagem com o tamanho estabelecido */
+}
+
+.contet img {
+    width: 900px;
+    height: 350px;
+    object-fit: cover; /* coloca a imagem dentro do tamanho estabelecido */
+}
+
+.slide {
+  position: relative;
+}
+
+.slider {
+  overflow-x: hidden; /* esconde o scroll */
+  width: 900px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(9, 27, 234);
+  color: white;
+  position: absolute;
+  top: 25%;
+  cursor: pointer;
+}
+
+button:first-of-type { /* pseudo seletor */
+  left: 0;
+  transform: translate(-50%, -50%); 
+}
+
+button:last-of-type { /* pseudo seletor */
+  right: 0;
+  transform: translate(50%, -50%); 
+}
+
+button:hover {
+  background-color: rgb(0, 0, 139);
+}
